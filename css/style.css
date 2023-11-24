@@ -1,0 +1,446 @@
+/* Wang Lang Restaurant Web Page*/
+/* CSS Document */
+
+/* Defaults ****************************/
+
+html {
+    font-family: optima;
+    scroll-behavior: smooth;
+    background: transparent linear-gradient(181deg, #8C0202 0%, #400101 100%) 0% 0% no-repeat padding-box;
+    background-attachment: fixed;
+    font-size: 1.3em;
+    color: #F1AC32;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color:#F1AC32;
+    text-decoration: none;
+}
+
+h4:hover {
+    color: bisque;
+    font-size:larger;
+}
+
+h1:hover {
+    color: bisque;
+    font-size: 48px;
+}
+
+/* Structure ***************************/
+
+nav {
+    height: 80px;
+    background-color: #400101;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo-left {
+    background-image: url(../img/logo-left.png) no-repeat;
+    float: left;
+    margin: 10px 0 0 20px;
+}
+
+nav ol {
+    margin: 0 0 0 15px;
+    padding: 0;
+    float: right;
+}
+
+nav ol li {
+    display: inline-block;
+    margin: 25px 25px 0 0;
+}
+
+.navbar ol li a {
+    font-size: 28px;
+    color: #F1AC32;
+    text-decoration: none;
+}
+
+footer {
+    background: transparent;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color:bisque;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin: 5px 5px 5px 5px;
+}
+
+/* Home page ***************************/
+.home-background {
+    height: 80vh;
+    width: 100vw;
+    background-image: url(../img/bgheader.png);
+    background-attachment: fixed;
+    background-size: 100%, 100%;
+    margin: o;
+}
+
+header .wanglang-logo {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.icon-bar {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.icon-bar a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+main {
+    height: 55vh;
+    width: 100vw;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.flex-item1 {
+    width: 50%;
+    height: auto;
+    flex: auto;
+    border: 0;
+    max-width: 600px;
+    max-height: 600px;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.flex-item1 img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-item2 {
+    width: 50%;
+    height: auto;
+    margin: 30px 30px 30px 30px;
+    border: 0;
+    padding: 10px;
+    text-align: left;
+}
+
+.flex-item2 p {
+    text-align: left;
+}
+
+/* Menu page ***************************/
+.menu-wrapper {
+    background: transparent linear-gradient(180deg, #400101 0%, #8C0202 38%, #A55C32 87%, #F1AC32 100%) 0% 0% no-repeat padding-box;
+}
+
+.menu-container {
+    background-attachment: fixed;
+    background: black;
+    opacity: 50%;
+    height: auto;
+}
+
+.menu-header {
+    height: 90vh;
+    width: auto;
+    padding: 0;
+    text-align: left;
+}
+
+.bar {
+    background-color: #400101;
+    text-align: center;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.flex1 {
+    width: 30%;
+}
+
+.flex2 {
+    width: 30%;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: medium;
+    font-style: italic;
+}
+
+/* Drink page ***************************/
+.drink-container {
+    background: transparent linear-gradient( #F1AC32 0%, #A55C32 30%, #8C0202 87%, #400101 100%) 0% 0% no-repeat padding-box;
+    margin-top: -20px;
+    height: auto;
+}
+
+.drink-header {
+    height: auto;
+    width: auto;
+
+}
+
+.drink-header img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.non-alcohol {
+    height: 500px;
+}
+
+.non-alcohol .flex-container .flex1 {
+    width: 30%;
+    text-align: center;
+}
+
+.non-alcohol .flex-container .flex2 {
+    width: 30%;
+    text-align: center;
+}
+
+.non-alcohol h1 {
+    text-align: center;
+    color: #400101;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-bottom: 2px solid #400101;
+}
+
+.non-alcohol .flex-container {
+    color: #400101;
+}
+
+.beer {
+    height: 400px;
+}
+
+.beer h1 {
+    color: #400101;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-bottom: 2px solid #400101;
+    border-top: 2px solid #400101;
+}
+
+.beer .flex-container {
+    height: 400px;
+    color: #400101;
+}
+
+.beer .flex-container .flex1 {
+    width: 30%;
+}
+
+.beer .flex-container .flex2 {
+    width: 30%;
+}
+
+.cocktail {
+    height: 500px;
+}
+
+.cocktail .flex-container {
+    color: #400101;
+}
+
+.cocktail .flex-container .flex1 {
+    width: 33%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.cocktail .flex-container .flex2 {
+    width: 33%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.cocktail h1 {
+    text-align: center;
+    color: #400101;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-bottom: 2px solid #400101;
+    border-top: 2px solid #400101;
+}
+
+.sparkling h1 {
+    text-align: center;
+    color: #F1AC32;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-bottom: 2px solid #A55C32;
+    border-top: 2px solid #A55C32;
+    }
+
+.sparkling h4 {
+    color: #F1AC32;
+}
+
+.sparkling p {
+    color: #F1AC32;
+}
+
+.whitewine h1 {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-bottom: 2px solid #A55C32;
+    border-top: 2px solid #A55C32;
+}
+
+.redwine h1 {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-bottom: 2px solid #A55C32;
+    border-top: 2px solid #A55C32;
+}
+
+/* Contact Page *****************************************/
+
+.contact-wrapper {
+    background-image: url(../img/contact-background.png);
+    height: auto;
+}
+
+.contact-header {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+}
+
+.contact-header img {
+    justify-content: center;
+    margin-top: 10vh;
+    margin-left: 0;
+    margin-right: 350px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-flex1 {
+    width: 20%;
+    height: 51vh;
+    background-color: #400101;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-flex1 {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.contact-flex2 {
+    width: 40%;
+    justify-content: center;
+}
+
+.content-flex2 {
+    text-align: left;
+    margin-left: 50px;
+}
+
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: #A55C32;
+    border: 1px solid #A55C32;
+    border-radius: 4px;
+    text-align: left;
+}
+
+input[type=text], .email {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: #A55C32;
+    border: 1px solid #A55C32;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #F1AC32;
+    color: #400101;
+    font-size: large;
+    padding: 5px;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea {
+    background-color: #A55C32;
+    border: 1px solid #A55C32;
+    border-radius: 4px;
+}
+
+.map {
+    text-align: center;
+    justify-content: center;
+}
+
+iframe {
+    height: 10vh;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+    border: 0;
+}
