@@ -1,5 +1,8 @@
 /* Wang Lang Restaurant Web Page*/
 /* CSS Document */
+/* Using two different layout techniques which are flexbox and ...*********/
+/* Using pseudo classes****************************************************/
+/* Using overwritting and inheritance *************************************/
 
 /* Defaults ****************************/
 
@@ -21,7 +24,7 @@ a {
     color:#F1AC32;
     text-decoration: none;
 }
-
+/* Using pseudo class ****************************************************/
 h4:hover {
     color: bisque;
     font-size:larger;
@@ -52,6 +55,9 @@ nav ol {
     margin: 0 0 0 15px;
     padding: 0;
     float: right;
+    font-size: 28px;
+    color: #F1AC32;
+    text-decoration: none;
 }
 
 nav ol li {
@@ -59,10 +65,10 @@ nav ol li {
     margin: 25px 25px 0 0;
 }
 
-.navbar ol li a {
-    font-size: 28px;
-    color: #F1AC32;
-    text-decoration: none;
+/* Using overwritting and inheritance **************************************/
+.navbar ol li a:hover {
+    color: #A55C32;
+    font-style: italic;
 }
 
 footer {
